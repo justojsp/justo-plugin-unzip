@@ -1,6 +1,6 @@
 {
   "name": "justo-plugin-unzip",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Plugin to unzip files.",
   "homepage": "http://justojs.org",
   "author": {
@@ -35,8 +35,7 @@
     "npm": ">= 3.0.0"
   },
   "dependencies": {
-    "yauzl": "*",
-    "justo-fs": "*"
+    "justo-unzip": "*"
   },
   "peerDependencies": {},
   "devDependencies": {
@@ -44,6 +43,7 @@
     "justo": "*",
     "justo-assert": "*",
     "justo-assert-fs": "*",
+    "justo-fs": "*",
     "justo-plugin-babel": "*",
     "justo-plugin-fs": "*",
     "justo-plugin-jshint": "*",
